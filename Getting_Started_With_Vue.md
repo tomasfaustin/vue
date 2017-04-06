@@ -1,4 +1,5 @@
 # The Stand Up Kids Guide to Vue
+![icon](./app/assets/images/vue-icon.jpeg)
 
 ## Getting Started
 
@@ -13,3 +14,6 @@
 ### Pros And Cons Of Vue
 
 ### Hurdles To Learning This Tech
+
+### Conclusion
+![icon2](./app/assets/images/vue-icon 2.png)
