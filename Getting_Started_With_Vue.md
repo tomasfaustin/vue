@@ -59,12 +59,13 @@ APP.JS:
 })`
 
 #### Code Files (node modules, url)
-Use `npm install vue`, seasoned developer!
+Use `npm install vue vue-resource`, seasoned developer!
 
 The good folks at Vue have also included a handy CLI for quickly scaffolding ambitious Single Page Applications.
+
 `npm install --global vue-cli`
 
- `vue init webpack my-project`
+ `vue init webpack your-project`
 
  `cd my-project`
 
@@ -72,24 +73,27 @@ The good folks at Vue have also included a handy CLI for quickly scaffolding amb
 
  `npm run dev`
 
-Finally, Vue can be added to your app by using (Or you can give view a try very simply by adding this script tag at the bottom of your HTML page: `<script src="https://unpkg.com/vue"></script>`)
+Finally, Vue can be added to your app by using this script tag at the bottom of your HTML page: `<script src="https://unpkg.com/vue"></script>` or add ` <script src="node_modules/vue/dist/vue.js"></script>
+ <script src="node_modules/vue-resource/dist/vue-resource.js"></script>`
 
-#### Pros And Cons Of Vue
+#### Pros/Cons Of Vue
 
 ##### Pros
 <ul>
-  <li>Super simple to add into html</li>
-  <li>Solve complex problems with less code</li>
-  <li>Filters are easier and faster</li>
+  <li>Super simple framework to implement into your html 'that just works'</li>
+  <li>Solve complex problems with less code than others frameworks we've worked with</li>
   <li>Not a whole lot of configuration. Just have to incorporate the CDN (no webpack like React)</li>
-  <li>Uses the double curly html syntax like Angular</li>
+  <li>Uses the double curly html syntax like Angular!</li>
   <li>Really easy to bind html and js together with minimal amounts of code</li>
+  <li>Good for small and fast applications</li>
 </ul>
 
 ##### Cons
 <ul>
   <li>It's popularity isn't like React's, so it may not be a great selling point for employment</li>
-  <li>Not as robust as Angular so there may be some limitations for more advanced coders</li>
+  <li>Not as robust as Angular, so it's not a good choice for large scale apps</li>
+  <li>If you want to write for web and native apps, React is the better choice. Vue isn't as adaptable.</li>
+  <li>Ecosystem isn't as big as Reacts</li>
 </ul>
 
 #### Hurdles To Learning This Tech
