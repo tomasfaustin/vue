@@ -34,29 +34,8 @@ Aside from vanity stats, let's look at real usage statistics. Vue has passed 1 m
 
 [Here](href="https://github.com/vuejs/awesome-vue#commercial-products") is a link to some of the active sites that implement Vue.
 
-#### Check This Out
-HTML:
-
-`<div id="app-4">
-   <ol>
-   <li v-for="todo in todos">
-      {{ todo.text }}
-    </li>
-  </ol>
-</div>`
-
-APP.JS:
-
-`var app4 = new Vue({
-  el: '#app-4',
-  data: {
-    todos: [
-      { text: 'Learn JavaScript' },
-      { text: 'Learn Vue' },
-      { text: 'Build something awesome' }
-    ]
-  }
-})`
+#### Check This Out 
+![example-vue-code](./app/assets/images/example-vue-code.png)
 
 #### Code Files (node modules, url)
 Use `npm install vue vue-resource`, seasoned developer!
@@ -73,8 +52,7 @@ The good folks at Vue have also included a handy CLI for quickly scaffolding amb
 
  `npm run dev`
 
-Finally, Vue can be added to your app by using this script tag at the bottom of your HTML page: `<script src="https://unpkg.com/vue"></script>` or add ` <script src="node_modules/vue/dist/vue.js"></script>
- <script src="node_modules/vue-resource/dist/vue-resource.js"></script>`
+Finally, Vue can be added to your app by using this script tag at the bottom of your HTML page: `<script src="https://unpkg.com/vue"></script>` or add `<script src="node_modules/vue/dist/vue.js"></script><script src="node_modules/vue-resource/dist/vue-resource.js"></script>`
 
 #### Pros/Cons Of Vue
 
