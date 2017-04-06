@@ -34,11 +34,63 @@ Aside from vanity stats, let's look at real usage statistics. Vue has passed 1 m
 
 [Here](href="https://github.com/vuejs/awesome-vue#commercial-products") is a link to some of the active sites that implement Vue.
 
-#### How It's Like/Unlike What You Know
+#### Check This Out
+HTML:
 
-#### Code Files (Gemfile, package.json)
+`<div id="app-4">
+   <ol>
+   <li v-for="todo in todos">
+      {{ todo.text }}
+    </li>
+  </ol>
+</div>`
+
+APP.JS:
+
+`var app4 = new Vue({
+  el: '#app-4',
+  data: {
+    todos: [
+      { text: 'Learn JavaScript' },
+      { text: 'Learn Vue' },
+      { text: 'Build something awesome' }
+    ]
+  }
+})`
+
+#### Code Files (node modules, url)
+Use `npm install vue`, seasoned developer!
+
+The good folks at Vue have also included a handy CLI for quickly scaffolding ambitious Single Page Applications.
+`npm install --global vue-cli`
+
+ `vue init webpack my-project`
+
+ `cd my-project`
+
+ `npm install`
+
+ `npm run dev`
+
+Finally, Vue can be added to your app by using (Or you can give view a try very simply by adding this script tag at the bottom of your HTML page: `<script src="https://unpkg.com/vue"></script>`)
 
 #### Pros And Cons Of Vue
+
+##### Pros
+<ul>
+  <li>Super simple to add into html</li>
+  <li>Solve complex problems with less code</li>
+  <li>Filters are easier and faster</li>
+  <li>Not a whole lot of configuration. Just have to incorporate the CDN (no webpack like React)</li>
+  <li>Uses the double curly html syntax like Angular</li>
+  <li>Really easy to bind html and js together with minimal amounts of code</li>
+</ul>
+
+##### Cons
+<ul>
+  <li>It's popularity isn't like React's, so it may not be a great selling point for employment</li>
+  <li>Not as robust as Angular so there may be some limitations for more advanced coders</li>
+</ul>
 
 #### Hurdles To Learning This Tech
 
