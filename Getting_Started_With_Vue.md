@@ -34,7 +34,7 @@ Aside from vanity stats, let's look at real usage statistics. Vue has passed 1 m
 
 [Here](href="https://github.com/vuejs/awesome-vue#commercial-products") is a link to some of the active sites that implement Vue.
 
-#### Check This Out 
+#### Check This Out
 ![example-vue-code](./app/assets/images/example-vue-code.png)
 
 #### Code Files (node modules, url)
@@ -75,6 +75,8 @@ Finally, Vue can be added to your app by using this script tag at the bottom of 
 </ul>
 
 #### Hurdles To Learning This Tech
+
+![hurdles](https://media.giphy.com/media/3oEduOdBgjm7Yuyvmw/giphy.gif)
 
 There aren't a ton of roadblocks to learning this technology. The documentation is very developer-friendly and there are dozens of walk-throughs on YouTube. If you have some foundation in Angular, this will look pretty familiar with just a few exceptions.
 
