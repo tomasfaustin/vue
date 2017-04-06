@@ -62,6 +62,7 @@ APP.JS:
 Use `npm install vue`, seasoned developer!
 
 The good folks at Vue have also included a handy CLI for quickly scaffolding ambitious Single Page Applications.
+
 `npm install --global vue-cli`
 
  `vue init webpack my-project`
@@ -74,7 +75,7 @@ The good folks at Vue have also included a handy CLI for quickly scaffolding amb
 
 Finally, Vue can be added to your app by using (Or you can give view a try very simply by adding this script tag at the bottom of your HTML page: `<script src="https://unpkg.com/vue"></script>`)
 
-#### Pros And Cons Of Vue
+#### Pros/Cons Of Vue
 
 ##### Pros
 <ul>
