@@ -4,10 +4,17 @@
 #### “Not a full-blown framework – a view layer that is simple and flexible.” --Vue.js docs
 
 ### Getting Started
+![start](https://media.giphy.com/media/3oz8xXrA14O8P0DzW0/giphy.gif)
 
 #### Why Use Vue?
+<<<<<<< HEAD
+![why](https://media.giphy.com/media/n9tdoAI1FcwqA/giphy.gif)
+=======
+Vue is a simplistic, lightweight library that is recommended when frameworks like Angular offer more than what is necessary for a single-page application. Part of the beauty of vue is its simplicity; it does not require much configuration with webpack, etc.--you simply insert the script tag into your code and you're ready to use the Vue library. You can even use vue on its on without jQuery! Unlike some of the frameworks we have worked with in the past, (aka Rails), this library is not opinionated. You can explore its various options by following their great [documentation](https://vuejs.org/v2/guide/).
+>>>>>>> 7b2000a476ebc177d45156b368f4a098ab9738fc
 
 #### Who Uses It?
+![chuck](https://media.giphy.com/media/3o7btQqC3dIlJNf5zW/giphy.gif)
 
 #### How It's Like/Unlike What You Know
 
@@ -22,4 +29,4 @@ Vue is dope. It's simple, powerful, and has a relatively low barrier to entry if
 
 You can build a single-page app with [this demo](https://scotch.io/tutorials/build-an-app-with-vue-js-a-lightweight-alternative-to-angularjs).
 
-![icon2](./app/assets/images/vue-icon 2.png)
+![icon2](./app/assets/images/vue-icon2.png)
