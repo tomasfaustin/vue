@@ -4,10 +4,13 @@
 #### “Not a full-blown framework – a view layer that is simple and flexible.” --Vue.js docs
 
 ### Getting Started
+![start](https://media.giphy.com/media/3oz8xXrA14O8P0DzW0/giphy.gif)
 
 #### Why Use Vue?
+![why](https://media.giphy.com/media/n9tdoAI1FcwqA/giphy.gif)
 
 #### Who Uses It?
+![chuck](https://media.giphy.com/media/3o7btQqC3dIlJNf5zW/giphy.gif)
 
 #### How It's Like/Unlike What You Know
 
@@ -22,4 +25,4 @@ Vue is dope. It's simple, powerful, and has a relatively low barrier to entry if
 
 You can build a single-page app with [this demo](https://scotch.io/tutorials/build-an-app-with-vue-js-a-lightweight-alternative-to-angularjs).
 
-![icon2](./app/assets/images/vue-icon 2.png)
+![icon2](./app/assets/images/vue-icon2.png)
